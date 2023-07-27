@@ -9,6 +9,8 @@ require('dotenv').config();
 const PostMalonev4Route = require('./routes/PostMalonev4Router');
 const PostMalonev4Route = require('./routes/PostMalonev4Router');
 const PostMalonev6Route = require('./routes/PostMalonev6Router');
+const PostMalonev7Route = require('./routes/PostMalonev7Router');
+app.use('posty7', PostMalonev7Route);
 app.use('posty4', PostMalonev6Route);
 app.use('undefined', PostMalonev4Route);
 app.use('undefined', PostMalonev4Route);
