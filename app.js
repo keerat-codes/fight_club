@@ -13,6 +13,8 @@ const PostMalonev7Route = require('./routes/PostMalonev7Router');
 const PostMalonev8Route = require('./routes/PostMalonev8Router');
 const PostMalonev9Route = require('./routes/PostMalonev9Router');
 const PostMalonev10Route = require('./routes/PostMalonev10Router');
+const PostMalonev11Route = require('./routes/PostMalonev11Router');
+app.use('posty11', PostMalonev11Route);
 app.use('posty10', PostMalonev10Route);
 app.use('posty9', PostMalonev9Route);
 app.use('posty8', PostMalonev8Route);
