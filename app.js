@@ -6,6 +6,8 @@ const PORT = 8000;
 
 require('dotenv').config();
 
+const PostMalonev4Route = require('./routes/PostMalonev4Router');
+app.use('undefined', PostMalonev4Route);
 app.use(cors())
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
